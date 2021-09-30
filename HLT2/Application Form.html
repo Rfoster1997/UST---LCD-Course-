@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML> 
+    <head>
+        <link rel= "Stylesheet" href = "Application Form Stylessheet.css">
+        <script src ="Application Form Script.js" type ="text/javascript"> 
+        </script>
+
+    </head>
+    <Center> 
+        <H1> <b> <u>Application Form</b></u> </H1>
+    </Center>
+    <center>
+    <form>
+        <fieldset>
+            <center>
+            <Legend> Full Name </Legend>
+        </center>
+            <input type ="text" id="t1" onblur="ch(this)"/> 
+            <br>
+            <center>
+    
+            <legend> Email Address </legend>
+            <input type = "email" id="email" onblur="ch(this)"/>
+        
+        </center>
+    </br>
+    <center>
+        <legend>Mobile Number</legend>
+        <input type = "tel" id ="mob" onblur="ch(this)"/> 
+    </center>
+    <br>
+    <center>
+        <legend>Country</legend>
+        <input list ="City" placeholder = "Select">
+        <datalist id = "City">
+            <option value = "London"></option>
+            <option value = "New York"></option>
+            <option value = "Barcelona"></option>
+            <option value = "Rome"></option>
+        </datalist>
+    </center>
+</br>
+    <center>
+    <legend>Gender</legend>
+    <input type = "radio" id = "Male" name ="Male" value ="Male">
+    <label for= "Male">Male</label>
+    <input type = "radio" id = "Famale" name = "Female" value ="Female">
+    <label for = "Female">Female</label> 
+    
+</center>
+        </fieldset>
+    </form>
+</center>
+
